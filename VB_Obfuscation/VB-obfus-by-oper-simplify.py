@@ -55,6 +55,6 @@ if(__name__ == "__main__"):
         print(usage)
     else:
         try:
-            simplify_operations(argv[1], argv[2].split('-'), argv[3])
+            simplify_operations(argv[1], argv[2].split('`'), argv[3])
         except:
-            simplify_operations(argv[1], argv[2].split('-'))
+            simplify_operations(argv[1], argv[2].split('`'))
